@@ -35,5 +35,5 @@ function optimizeHtmlOutput() {
 
 export default defineConfig({
   plugins: [react(), optimizeHtmlOutput()],
-  base: "/abdiel-portfolio/",
+  base: "/",
 });

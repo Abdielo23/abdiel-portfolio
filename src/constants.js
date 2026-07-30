@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.BASE_URL || '/Abdiel/';
+const BASE_URL = import.meta.env.BASE_URL || '/';
 
 export const asset = (filename) => {
   const cleanName = filename.replace(/^\/+/, "");
