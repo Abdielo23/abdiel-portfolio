@@ -1,4 +1,4 @@
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 import { asset } from '../constants';
 
 const PROJECTS = [
@@ -13,6 +13,21 @@ const PROJECTS = [
     imageWidth: 1200,
     imageHeight: 900,
     link: "https://rascal.nianet.org/rascal-archives/",
+    github: null,
+    underConstruction: false,
+  },
+  {
+    title: "Stock Analyzer",
+    description:
+      "Stock analysis tool combining fundamental analysis, technical indicators, valuation (DCF/WACC), risk metrics, social sentiment, geopolitical risk, and AI investment summary — built for retail investors who want hedge fund level insights.",
+    tech: ["Python", "JavaScript", "FastAPI", "React", "REST API"],
+    type: "Full Stack & Data",
+    color: "bg-emerald-700",
+    image: asset("website.webp"),
+    imageWidth: 1200,
+    imageHeight: 800,
+    link: "https://github.com/Abdielo23/stock-analyzer",
+    github: "https://github.com/Abdielo23/stock-analyzer",
     underConstruction: false,
   },
   {
@@ -26,6 +41,7 @@ const PROJECTS = [
     imageWidth: 1200,
     imageHeight: 800,
     link: "#",
+    github: null,
     underConstruction: false,
   },
   {
@@ -39,6 +55,7 @@ const PROJECTS = [
     imageWidth: 1200,
     imageHeight: 800,
     link: "#",
+    github: null,
     underConstruction: true,
   },
 ];
@@ -91,6 +108,17 @@ const Projects = () => {
                     {project.type}
                   </div>
                   <div className="flex gap-4 text-[#B8C2CC]">
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-[#57F2D6] transition-colors"
+                        aria-label="GitHub"
+                      >
+                        <Github size={20} />
+                      </a>
+                    )}
                     <a
                       href={project.link}
                       target="_blank"
