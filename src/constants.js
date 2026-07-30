@@ -1,7 +1,7 @@
-const BASE_URL = import.meta.env.BASE_URL || '/abdiel-portfolio/';
+const BASE_URL = import.meta.env.BASE_URL || '/Abdiel/';
 
 export const asset = (filename) => {
-  const cleanName = filename.replace(/^\\/+/, "");
+  const cleanName = filename.replace(/^\/+/, "");
   return `${BASE_URL}${cleanName}`;
 };
 

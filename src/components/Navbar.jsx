@@ -15,7 +15,7 @@ const Navbar = () => {
   const smallCoquiSize = 32;
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-[#171717]/90 backdrop-blur-sm px-4 py-3 md:px-8 flex justify-between items-center text-[#F2F5F7] shadow-lg transition-colors duration-300">
+    <nav className="fixed w-full top-0 z-50 bg-[#171717]/95 md:bg-[#171717]/90 md:backdrop-blur-sm px-4 py-3 md:px-8 flex justify-between items-center text-[#F2F5F7] shadow-lg transition-colors duration-300">
 
       <a
         href={LINKEDIN_URL}

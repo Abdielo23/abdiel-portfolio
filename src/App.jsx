@@ -19,8 +19,8 @@ const App = () => {
 
       {/* Background Gradients */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-0 overflow-hidden">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#57F2D6]/10 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-[#9CA3AF]/10 rounded-full blur-[100px]" />
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#57F2D6]/10 rounded-full blur-[60px] md:blur-[120px] blur-orb" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-[#9CA3AF]/10 rounded-full blur-[50px] md:blur-[100px] blur-orb" />
       </div>
     </div>
   );

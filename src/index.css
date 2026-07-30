@@ -23,6 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Force GPU compositing on blur orbs to prevent Safari mobile black screen */
+.blur-orb {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
 /* Experience section animations */
 @keyframes fadeInSlide {
   from { opacity: 0; transform: translateX(15px); }
