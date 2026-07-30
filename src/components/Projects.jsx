@@ -23,7 +23,7 @@ const PROJECTS = [
     tech: ["Python", "JavaScript", "FastAPI", "React", "REST API"],
     type: "Full Stack & Data",
     color: "bg-emerald-700",
-    image: asset("website.webp"),
+    image: asset("stock-analyzer.webp"),
     imageWidth: 1200,
     imageHeight: 800,
     link: "https://github.com/Abdielo23/stock-analyzer",
