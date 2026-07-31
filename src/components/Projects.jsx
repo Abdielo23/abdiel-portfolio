@@ -101,7 +101,7 @@ const Projects = () => {
 
             <div className="relative z-0">
               {/* Image Container */}
-              <div className={`h-48 w-full ${project.color} relative overflow-hidden`}>
+              <div className={`h-56 w-full ${project.color} relative overflow-hidden`}>
                 <div className="absolute inset-0 bg-[#222222]/80 group-hover:bg-[#222222]/30 transition-all duration-500 flex items-center justify-center">
                   <img
                     src={project.image}
