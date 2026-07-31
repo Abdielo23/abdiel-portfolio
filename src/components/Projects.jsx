@@ -19,7 +19,7 @@ const PROJECTS = [
   {
     title: "Stock Analyzer",
     description:
-      "Stock analysis tool combining fundamental analysis, technical indicators, valuation (DCF/WACC), risk metrics, social sentiment, geopolitical risk, and AI investment summary — built for retail investors who want hedge fund level insights.",
+      "Stock analysis tool combining fundamental analysis, technical indicators, valuation (DCF/WACC), risk metrics, social sentiment, geopolitical risk, and AI investment summary. ",
     tech: ["Python", "JavaScript", "FastAPI", "React", "REST API"],
     type: "Full Stack & Data",
     color: "bg-emerald-700",
@@ -57,6 +57,19 @@ const PROJECTS = [
     link: "#",
     github: null,
     underConstruction: true,
+  },
+  {
+    title: "Amour Pri — Bandana Store",
+    description:
+      "Built a custom Shopify storefront for a clothing brand, delivering a fully responsive mobile-first shopping experience. Engineered the complete UI using Liquid templating and CSS, including a custom product bundling system for personalized orders, optimizing the purchase flow across product discovery, cart, and checkout to drive online sales conversions.",
+    tech: ["Shopify", "Liquid", "CSS", "Google Fonts"],
+    type: "Frontend & E-Commerce",
+    color: "bg-yellow-700",
+    image: asset("amourpri.webp"),
+    imageWidth: 1200,
+    imageHeight: 800,
+    link: "https://amourpri.com",
+    underConstruction: false,
   },
 ];
 
