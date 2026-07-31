@@ -47,21 +47,21 @@ const PROJECTS = [
   {
     title: "Website",
     description:
-      "This website is my personal project which showcases development skills and modern UX design.",
+      "Personal portfolio built from scratch with React and Tailwind, featuring smooth animations, a fully responsive mobile layout, and deployed on GitHub Pages with a custom domain.",
     tech: ["React", "Html", "Tailwind", "CSS"],
     type: "Personal Project",
     color: "bg-green-600",
     image: asset("website.webp"),
     imageWidth: 1200,
     imageHeight: 800,
-    link: "#",
-    github: null,
-    underConstruction: true,
+    link: "https://abdielvallejo.co",
+    github: "https://github.com/Abdielo23/abdiel-portfolio",
+    underConstruction: false,
   },
   {
-    title: "Amour Pri — Bandana Store",
+    title: "Amourpri",
     description:
-      "Built a custom Shopify storefront for a clothing brand, delivering a fully responsive mobile-first shopping experience. Engineered the complete UI using Liquid templating and CSS, including a custom product bundling system for personalized orders, optimizing the purchase flow across product discovery, cart, and checkout to drive online sales conversions.",
+      "Built a custom Shopify storefront for a pet accessories brand, delivering a fully responsive mobile-first shopping experience. Engineered the complete UI using Liquid templating and CSS, including a custom product bundling system for personalized orders, optimizing the purchase flow across product discovery, cart, and checkout to drive online sales conversions.",
     tech: ["Shopify", "Liquid", "CSS", "Google Fonts"],
     type: "Frontend & E-Commerce",
     color: "bg-yellow-700",
