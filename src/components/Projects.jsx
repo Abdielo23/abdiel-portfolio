@@ -110,7 +110,7 @@ const Projects = () => {
                     height={project.imageHeight}
                     loading="lazy"
                     decoding="async"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
+                    className="absolute inset-0 w-full h-full object-cover object-top"
                   />
                 </div>
               </div>
