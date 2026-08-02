@@ -51,7 +51,7 @@ const PROJECTS = [
     tech: ["React", "Html", "Tailwind", "CSS"],
     type: "Personal Project",
     color: "bg-green-600",
-    image: asset("website.webp"),
+    image: asset("web.webp"),
     imageWidth: 1200,
     imageHeight: 800,
     link: "https://abdielvallejo.co",
