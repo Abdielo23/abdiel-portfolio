@@ -12,7 +12,7 @@ const PROJECTS = [
     image: asset("rasc-al.webp"),
     imageWidth: 1200,
     imageHeight: 900,
-    link: "https://rascal.nianet.org/rascal-archives/",
+    link: "https://rascal.nianet.org/2025-competition-archive/",
     github: null,
     underConstruction: false,
   },
@@ -33,8 +33,8 @@ const PROJECTS = [
   {
     title: "Barber-Bot",
     description:
-      "An automated WhatsApp assistant for barber shops that manages real-time scheduling. It integrates Google Calendar API for availability tracking and Twilio API for messaging",
-    tech: ["FastAPI", "SQLite", "Twilio API", "Google Calendar API", "Python"],
+      "An AI-powered WhatsApp booking assistant for barber shops with real-time scheduling, barber approval flow, and a React dashboard. Uses Meta's WhatsApp Cloud API for messaging, Groq for natural language understanding, Redis for conversation state, and Google Calendar API for availability.",
+    tech: ["FastAPI", "React", "Redis", "Meta Cloud API", "Groq AI", "Google Calendar API", "Python"],
     type: "Backend & System Automation",
     color: "bg-purple-600",
     image: asset("barber-bot.webp"),

@@ -15,7 +15,7 @@ const About = () => {
         {/* Text Section */}
         <div className="md:col-span-2 text-[#F2F5F7] text-base leading-relaxed space-y-4">
           <p>
-            HI there! I'm Abdiel, a Computer Engineering student at the University of Puerto Rico at Mayagüez. My journey into tech began with a fascination with video games and hacking, leading me to explore programming and hardware.
+            HI there! I'm Abdiel, an Industrial engineer student at the University of Puerto Rico at Mayagüez specialized in Operations Research, Data Analytics, and Software Solutions.
           </p>
           <p>
             Fast-forward to today, I've had the opportunity to work at different things like
