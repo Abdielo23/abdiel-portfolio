@@ -11,7 +11,7 @@ const PROJECTS = [
     color: "bg-blue-500",
     image: asset("rasc-al.webp"),
     imageWidth: 1200,
-    imageHeight: 900,
+    imageHeight: 800,
     link: "https://rascal.nianet.org/2025-competition-archive/",
     github: null,
     underConstruction: false,
@@ -69,6 +69,20 @@ const PROJECTS = [
     imageWidth: 1200,
     imageHeight: 800,
     link: "https://amourpri.com",
+    underConstruction: false,
+  },
+  {
+    title: "GRIND. Clothing Store",
+    description:
+    "A Puerto Rico streetwear brand needed a full e-commerce presence that matched their raw, high-end aesthetic. Built a custom Shopify Liquid theme from scratch, including a cinematic AI-generated video intro, AJAX cart, and a fully responsive experience across mobile and desktop. " +
+    "The store launched and generated thousands of dollars in revenue.",
+    tech: ["Shopify Liquid", "JavaScript", "CSS", "AI Video"],
+    type: "Client Project",
+    color: "bg-zinc-800",
+    image: asset("grind.webp"),
+    imageWidth: 1200,
+    imageHeight: 800,
+    link: "https://grindpr.store/",
     underConstruction: false,
   },
 ];
