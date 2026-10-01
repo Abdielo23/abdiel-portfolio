@@ -3,11 +3,11 @@ import { asset } from '../constants';
 
 const PROJECTS = [
   {
-    title: "NASA RASC-AL Rover",
+    title: "Nasa RASC-AL Rover",
     description:
-      "Fault-tolerant lunar rover architecture built around dual NASA HPSC processors and an AMD Versal AI Core. Designed the autonomy workflow and validated sensor coverage in simulation.",
-    tech: ["ROS Noetic", "Gazebo", "Ubuntu", "AMD Versal AI Core", "SHERPA"],
-    type: "Autonomous Systems",
+      "Nasa RASC-AL competition project focused on developing a lunar rover's computer architecture and autonomy stack.",
+    tech: ["Matlab", "Gazebo", "SolidWorks"],
+    type: "University Project",
     color: "bg-blue-500",
     image: asset("rasc-al.webp"),
     imageWidth: 1200,
@@ -19,8 +19,8 @@ const PROJECTS = [
   {
     title: "Stock Analyzer",
     description:
-      "An 11-module financial analysis backend exposing 13 API endpoints for DCF, VWAP, Sharpe ratio, VaR, and SEC EDGAR insider analysis, with cached data from multiple financial sources.",
-    tech: ["Python", "FastAPI", "React", "yfinance", "Alpha Vantage", "SEC EDGAR"],
+      "Stock analysis tool combining fundamental analysis, technical indicators, valuation (DCF/WACC), risk metrics, social sentiment, geopolitical risk, and AI investment summary. ",
+    tech: ["Python", "JavaScript", "FastAPI", "React", "REST API"],
     type: "Full Stack & Data",
     color: "bg-emerald-700",
     image: asset("stock-analyzer.webp"),
@@ -31,9 +31,9 @@ const PROJECTS = [
     underConstruction: false,
   },
   {
-    title: "Barber Bot",
+    title: "Barber-Bot",
     description:
-      "A conversational WhatsApp assistant that automates appointment scheduling, reminders, cancellations, and customer interactions, with real-time availability through Google Calendar.",
+      "An AI-powered WhatsApp booking assistant for barber shops with real-time scheduling, barber approval flow, and a React dashboard. Uses Meta's WhatsApp Cloud API for messaging, Groq for natural language understanding, Redis for conversation state, and Google Calendar API for availability.",
     tech: ["FastAPI", "React", "Redis", "Meta Cloud API", "Groq AI", "Google Calendar API", "Python"],
     type: "Backend & System Automation",
     color: "bg-purple-600",
