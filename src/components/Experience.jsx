@@ -2,22 +2,29 @@ import { useState } from 'react';
 
 const EXPERIENCES = [
   {
-    company: "SPARC",
-    role: "rasc-al",
-    date: "2024 - Present",
+    company: "NASA RASC-AL",
+    role: "Lead Hardware & Autonomous Systems Engineer",
+    date: "June 2025",
     points: [
-      "Part of PES (power and electrical systems) team focused on designing and implementing the rover's electrical systems and autonomy.",
-      "Collaborated with different teams to ensure seamless integration of hardware and software components.",
-      "Provided leadership within the group in assembling the hardware components for the rover and the autonomy stack.",
+      "Designed a fault-tolerant autonomous computing architecture using dual NASA HPSC processors and an AMD Versal AI Core, with SHERPA-based recovery logic for resilient lunar operations.",
+      "Developed an autonomous ConOps workflow integrating health monitoring, AI-driven task prioritization, path planning, fault handling, and rover mission execution.",
+      "Validated sensor placement and perception coverage through ROS Noetic and Gazebo simulations on Ubuntu.",
     ],
   },
   {
-    company: "Freelance",
-    role: "Full stack Developer",
-    date: "2025 - Present",
+    company: "SPARC, UPRM",
+    role: "Research Member",
+    date: "August 2024 - Present",
     points: [
-      "Developed and maintained code for websites primarily using HTML, CSS, and React.",
-      "Manually tested sites in various browsers and mobile devices to ensure cross browser compatibility and responsiveness.",
+      "Conduct AI and autonomy trade studies for lunar rover systems, evaluating technical approaches and translating findings into system-level recommendations for team development.",
+    ],
+  },
+  {
+    company: "Solar Boat, UPRM",
+    role: "Computer Engineering Division",
+    date: "August 2026 - Present",
+    points: [
+      "Develop the team's website using HTML and CSS while coordinating with other divisions to support shared technical and organizational goals.",
     ],
   },
 ];
@@ -32,7 +39,7 @@ const Experience = () => {
 
       <div className="flex items-center mb-8">
         <span className="text-[#57F2D6] font-mono text-lg mr-3">03.</span>
-        <h2 className="text-xl font-bold text-[#9CA3AF]">Where I've Worked</h2>
+        <h2 className="text-xl font-bold text-[#9CA3AF]">Technical Experience</h2>
         <div className="h-px bg-[#9CA3AF] flex-grow ml-6"></div>
       </div>
 

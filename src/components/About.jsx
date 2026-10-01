@@ -1,6 +1,6 @@
 import ImageSlideshow from './ImageSlideshow';
 
-const SKILLS = ['C', 'React', 'Tailwind', 'Python', 'PyTorch', 'Raspberry Pi'];
+const SKILLS = ['Python', 'C++', 'React', 'FastAPI', 'PyTorch', 'ROS Noetic', 'Gazebo', 'AWS SageMaker'];
 
 const About = () => {
   return (
@@ -15,18 +15,19 @@ const About = () => {
         {/* Text Section */}
         <div className="md:col-span-2 text-[#F2F5F7] text-base leading-relaxed space-y-4">
           <p>
-            HI there! I'm Abdiel, an Industrial engineer student at the University of Puerto Rico at Mayagüez specialized in Operations Research, Data Analytics, and Software Solutions.
+            Hi there! I'm Abdiel, a Computer Science and Engineering student at the
+            University of Puerto Rico at Mayagüez, pursuing a minor in Project Management.
           </p>
           <p>
-            Fast-forward to today, I've had the opportunity to work at different things like
-            <span className="text-[#57F2D6]"> SPARC</span>, a
-            <span className="text-[#57F2D6]"> RASC-AL</span> focused organization
-            <span className="text-[#57F2D6]"> where I had the opportunity to develop a rover's computer architecture and autonomy</span>.
-            My main focus these days is building useful and innovative stuff and continuing to collaborate with others in the tech community :)
+            My work spans <span className="text-[#57F2D6]">autonomous systems</span>,
+            <span className="text-[#57F2D6]"> AI</span>, aerospace simulation, and
+            full-stack development. Through SPARC and NASA RASC-AL, I've designed
+            fault-tolerant computing architectures and autonomy workflows for lunar rover
+            missions. I also enjoy turning ambitious ideas into useful, reliable software.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
 
-          <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-base text-[#B8C2CC]">
+          <ul className="grid grid-cols-2 gap-2 mt-4 font-mono text-sm text-[#B8C2CC]">
             {SKILLS.map((skill) => (
               <li key={skill} className="flex items-center">
                 <span className="text-[#57F2D6] mr-2">▹</span>{skill}

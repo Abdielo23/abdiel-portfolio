@@ -6,6 +6,6 @@ export const asset = (filename) => {
 };
 
 export const RESUME_URL = `${BASE_URL}resume.pdf`;
-export const LINKEDIN_URL = "https://www.linkedin.com/in/abdiel-vallejo-0a6b2632b/";
+export const LINKEDIN_URL = "https://linkedin.com/in/abdielvallejo";
 export const GITHUB_URL = "https://github.com/Abdielo23";
 export const EMAIL = "abdiel.vallejo@upr.edu";

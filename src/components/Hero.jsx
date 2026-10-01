@@ -14,8 +14,9 @@ const Hero = () => {
       </h1>
 
       <p className="max-w-2xl text-[#F2F5F7] text-base leading-relaxed mb-8 mt-6">
-        I'm an Industrial Engineer in my third year at UPRM.
-        Currently, I am focused on building innovative gadgets and hope to collaborate with others in this journey.
+        I'm a Computer Science and Engineering student at UPRM focused on
+        autonomous systems, artificial intelligence, and full-stack software.
+        I build resilient technology for problems on Earth and beyond.
       </p>
 
       <a
